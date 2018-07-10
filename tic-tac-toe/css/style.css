@@ -1,0 +1,89 @@
+/*style.css*/
+
+/**********************************Style the container , body & html *****************************************/
+html,body{
+	height: 550px;
+}
+.container{
+	background: #000;
+	width: 375px;
+	height: 500px;
+	margin: 10px auto 25px;
+}
+.score{
+	height: 100px;
+}
+/**********************************for styling all rows & inside all the rows all the tags are styled**********************/
+.row1,.row2,.row3{
+	background: #1B252D;
+	height: 135px;
+	border-bottom: solid 2px #FF0067;
+}
+.row3{
+	border: none;
+}
+#pull-left{
+	float: left;
+}
+.col-1,.col-2{
+	height: 100%;
+	width: 124px;
+	border-right: solid 2px #FF0067;
+}
+.inside{
+	width: 95px;
+	height: 105px;
+	background: #00C4C4;
+	margin: 15px 13px 13px 13px;
+	border-radius: 10px;
+}
+.inside .text{
+	font-size: 100px;
+	padding: 0;
+	width: 75px;
+	height: 120px;
+	margin-left: 10px;
+	line-height: 110px;
+	color: #FF0067;
+	display: inline-block;
+}
+.center{
+	font-size: 40px;
+	margin: 0;
+	margin-left:600px;
+}
+h2.center{
+	margin-left: 600px;
+}
+/****************************************style the start button*******************************************/
+input[type="button"]{
+	width: 150px;
+    height: 50px;
+    background: #FFF;
+    border-radius:none;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    line-height: 50px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s;
+}
+input[type="button"]:active{
+	 background-color:  #00C4C4;
+	 box-shadow: 0 0;
+	border: none;
+    color: white;
+    top: 4px;
+}
+/****************************Style the result div which show the X & O ************************************/
+.result{
+	width: 300px;
+	height: 200px;
+	position: fixed;
+	left: 100px;
+	margin: 20px auto;
+	background: linear-gradient(#00C4C4,#d4ffff);
+	float: left;
+	text-align: center;
+	line-height: 200px;
+	font-size: 40px;
+}

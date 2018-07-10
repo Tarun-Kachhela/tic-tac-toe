@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Tic-tac-toe Game</title>
+	<!--	for normalize CSS-->
+	<link rel="stylesheet" href="css/normalize.css">
+	<!--	for animation-->
+	<link rel="stylesheet" href="animate/animate.css">
+	<!--	Our CSS-->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- Tic tac toe -->
+
+<body>
+<!--	for Heading -->
+	<h2 class="center animated zoomIn">Tic-Tac-Toe</h2>
+<!--	end heading -->
+	<div>
+<!--		for displaying the result who is win(X or O)-->
+		<span class="result animated zoomIn"></span>
+<!--		main container which display the X oR O-->
+		<div class="container animated zoomIn">
+			<div class="score"></div>
+			<!--start of the row1-->
+			<div class="row1">
+				<div class="col-1" id="pull-left">
+					<div class="inside animated fadeInDown" id="1"><span class="text animated"></span></div>
+				</div>
+				<div class="col-2" id="pull-left">
+					<div class="inside animated fadeInDown" id="2"><span class="text animated"></span></div>
+				</div>
+				<div class="col-3" id="pull-left">
+					<div class="inside animated fadeInDown" id="3"><span class="text animated"></span></div>
+				</div>
+			</div><!--end of the row1-->
+			<!--start of the row2-->
+			<div class="row2">
+				<div class="col-1" id="pull-left">
+					<div class="inside animated fadeInDown" id="4"><span class="text animated"></span></div>
+				</div>
+				<div class="col-2" id="pull-left">
+					<div class="inside animated fadeInDown" id="5"><span class="text animated"></span></div>
+				</div>
+				<div class="col-3" id="pull-left">
+					<div class="inside animated fadeInDown" id="6"><span class="text animated"></span></div>
+				</div>
+			</div><!--end of the row2-->
+<!--start of the row3-->
+			<div class="row3">
+				<div class="col-1" id="pull-left">
+					<div class="inside animated fadeInDown" id="7"><span class="text animated"></span></div>
+				</div>
+				<div class="col-2" id="pull-left">
+					<div class="inside animated fadeInDown" id="8"><span class="text animated"></span></div>
+				</div>
+				<div class="col-3" id="pull-left">
+					<div class="inside animated fadeInDown" id="9"><span class="text animated"></span></div>
+				</div>
+			</div><!--end of the row3-->
+		</div><!--end of the container-->
+<!--		This is button for restart the game-->
+		<input type="button" value="Start" class="center animated zoomIn" id="start-button">
+
+	</div><!--last div-->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>
